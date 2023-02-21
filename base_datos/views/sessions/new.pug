@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title Prueba con PUG
+    //- link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    form(action="/sessions" method='POST')
+        label(for='email') Email
+        input(type='email', name='email')
+        label(for='password') Password
+        input(type='password', name='password')
+        input(type='submit', value='Iniciar sesión')
+        
