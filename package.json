@@ -1,0 +1,11 @@
+{
+  "name": "curso_backend",
+  "version": "1.0.0",
+  "description": "curso codigofacilito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "steveO",
+  "license": "ISC"
+}
