@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title Prueba con PUG
+    //- link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h1 Tareas
+    ul
+      each task in tasks
+        li= task.id
+        li= task.description
